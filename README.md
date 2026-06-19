@@ -13,7 +13,7 @@ VirtualBox installation, VM creation (DC01 + CLIENT 1)
 | VM Name       | OS                | vCPU | RAM  | Storage | Network Adapters        |
 |---------------|-------------------|------|------|---------|-------------------------|
 | DC01          | Windows Server 2022 | 2    | 4GB  | 2TB (thin) | NAT + Internal Network |
-| CLIENT1       | Windows 10/11      | 2    | 2GB  | 128GB   | NAT only (initially)    |
+| CLIENT1       | Windows 11      | 2    | 4GB  | 128GB   | NAT only (initially)    |
 
 - **Virtualization platform:** Oracle VirtualBox (free)
 - **Host machine:** 16GB RAM, 4-core CPU, 250GB free storage
