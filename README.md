@@ -23,21 +23,19 @@ VirtualBox installation, VM creation (DC01 + CLIENT 1)
 ## ⚠️ Key Challenges & Workarounds
 
 ### 1. VirtualBox Guest Additions failing on Windows Server 2022
-- **Challenge:** Screen resolution stuck at 800x600; no copy-paste or shared folders.
-- **Workaround:**  
-  - Boot into **Safe Mode** → Install Guest Additions with "Direct3D support disabled".  
-  - Reboot normally → Run again in normal mode for remaining drivers.
+- Challenge: Screen resolution stuck at 800x600; no copy-paste or shared folders.
+- Workaround: Boot into **Safe Mode** → Install Guest Additions with "Direct3D support disabled". Reboot normally → Run again in normal mode for remaining drivers.
 
 ### 2. Windows 11 VM was unusably slow
-- **Challenge:** CLIENT1 took 10+ minutes to boot, constant freezing
-- **Workaround:**  
+- Challenge: CLIENT1 took 10+ minutes to boot, constant freezing
+- Workaround:  
   - Increase RAM from 1GB to 2GB in VM settings  
   - Close all host applications to free memory  
   - Consider reducing to 1.5GB if host struggles
 
 ### 3. Windows 11 CLIENT1 couldn’t see the domain controller
-- **Challenge:** CLIENT1 only had NAT → no communication with DC01 on Internal Network.
-- **Workaround:**  
+- Challenge: CLIENT1 only had NAT → no communication with DC01 on Internal Network.
+- Workaround:  
   - Added a **second network adapter** to CLIENT1 → `Internal Network` (same name as DC01’s internal).  
   - This allows domain join later without exposing lab to host network.
 
