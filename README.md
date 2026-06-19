@@ -20,6 +20,32 @@ VirtualBox installation, VM creation (DC01 + CLIENT 1)
 
 ---
 
+ ## 🎯 Skills Learned & Applied
+ 
+ ### 1. Active Directory Domain Services Installation
+
+- Installed AD DS role on Windows Server 2022
+- Promoted server to a Domain Controller
+- Created a new forest with domain: mydomain.local
+- Configured DNS on the Domain Controller
+
+ ### 2. Organizational Unit (OU) Structure
+
+- Created ADMINS OU for privileged accounts
+
+ ### 3. User Account Management
+
+- Created dedicated Domain Admin account (Admin-JSmith)
+- Learned naming conventions: First initial + Last name (e.g., jsmith)
+
+ ### 4. Domain joining
+
+- Joined CLIENT1 to mydomain.local
+- Tested domain login 
+- Verified network connectivity across the domain
+
+---
+
 ## ⚠️ Key Challenges & Workarounds
 
 ### 1. VirtualBox Guest Additions failing on Windows Server 2022
