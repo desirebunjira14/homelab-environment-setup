@@ -22,27 +22,20 @@ VirtualBox installation, VM creation (DC01 + CLIENT 1)
 
  ## 🎯 Skills Learned & Applied
  
- ### 1. Active Directory Domain Services Installation
+ ### 1. Virtualization & Hypervisor Management:
 
-- Installed AD DS role on Windows Server 2022
-- Promoted server to a Domain Controller
-- Created a new forest with domain: mydomain.local
-- Configured DNS on the Domain Controller
+- Created and configured VMs using VirtualBox.
+- Managed vCPUs, RAM, and storage allocation.
+- Set up virtual networking (NAT and Internal networks)
 
- ### 2. Organizational Unit (OU) Structure
+ ### 2. Operating System Deployment 
 
-- Created ADMINS OU for privileged accounts
+- Performed clean installations of Windows Server 2022 and Windows 11 from ISO files.
 
- ### 3. User Account Management
+ ### 3. Hardware Resource Planning
 
-- Created dedicated Domain Admin account (Admin-JSmith)
-- Learned naming conventions: First initial + Last name (e.g., jsmith)
+- Allocated system resources (RAM, CPU, storage) based on workload requirements to optimize performance and troubleshoot bottlenecks
 
- ### 4. Domain joining
-
-- Joined CLIENT1 to mydomain.local
-- Tested domain login 
-- Verified network connectivity across the domain
 
 ---
 
